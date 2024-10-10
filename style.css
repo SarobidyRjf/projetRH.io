@@ -1,0 +1,111 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+p, ul, li {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Menu de navigation fixe */
+.menu-fixe {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.menu-fixe ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu-fixe li {
+    margin: 0 15px;
+}
+
+.menu-fixe a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu-fixe a:hover {
+    background-color: #555;
+}
+
+/* Présentation générale */
+.section-presentation {
+    padding: 60px 20px;
+    background-color: #09a;
+    text-align: center;
+
+}
+
+.texte-centre {
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+}
+
+/* Cartes */
+.section-cartes {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.cartes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.carte {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carte:hover {
+    transform: translateY(-10px);
+}
+
+.carte h3 {
+    color: #007BFF;
+}
+
+/* Défis majeurs */
+.section-defis {
+    padding: 40px 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.section-defis li{
+    list-style-type: none;
+}
+
+/* Section contact */
+.section-contact {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
